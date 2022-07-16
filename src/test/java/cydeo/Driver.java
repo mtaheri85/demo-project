@@ -36,7 +36,7 @@ public class Driver {
                     try {
                         // assign your grid server address
                         String gridAddress = "52.90.101.317";
-                        URL url = new URL("http://" + gridAddress + ":3334444/wd/hub");
+                        URL url = new URL("http://" + gridAddress + ":33334444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
